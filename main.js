@@ -1,17 +1,20 @@
 var result = document.getElementById("res");
-let value=0
-const counter = ()=>{
+
+let value = 0
+const counter = () => {
     value++;
-    document.getElementById("res").innerHTML=value;
-} 
+    document.getElementById("res").innerHTML = value;
+}
 
-const counter1 = ()=>{
+const counter1 = () => {
     value--;
-    document.getElementById("res").innerHTML=value;
-    } 
-    
+    document.getElementById("res").innerHTML = value;
+}
 
-function click(){
-        alert("hi");
-    }
-    
+
+const rest = () => {
+    value = 0;
+    document.getElementById("res").innerHTML = value;
+}
+
+
